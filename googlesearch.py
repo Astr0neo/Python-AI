@@ -69,8 +69,11 @@ def splitup(data):
       if r_list.index('<') >= temp_index1 and r_list.index('<') <= temp_index2:
         r_list[(r_list.index('<'))] = ''
 
-  r_list[(r_list.index('\xa0'))] = ''
-  r_list[(r_list.index('\n'))] = ''
+    if '\xa0' in r_list:
+      r_list[(r_list.index('\xa0'))] = ''
+
+    if '\n' in r_list:
+      r_list[(r_list.index('\n'))] = ''
 
   for item in r_list:
     answer += item
