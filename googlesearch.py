@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import json
 import urllib.request, urllib.parse
-import re
 
 temp_value = None
 temp_index1 = None
