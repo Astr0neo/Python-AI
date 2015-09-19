@@ -109,7 +109,7 @@ while user_input != "quit":
             user_input = user_input.split("caesar ")
             #send the cipher to the caesarcrack function
             answer = caesarcrack(user_input[1])
-        else:
+        elif user_input != "quit":
         	answer = wikisearch(user_input)
 
     #check if answer is not empty
