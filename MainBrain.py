@@ -98,12 +98,12 @@ while user_input != "quit":
             user_input = user_input.split("what was ")
             #search for the user's criteria
             answer = wikisearch(user_input[1])
-        if "whois" in user_input:
+        elif "whois" in user_input:
             #remove whois from the user input
             user_input = user_input.split("whois ")
             #lookup the details provided
             answer = whois(user_input[1])
-        if "caesar" in user_input:
+        elif "caesar" in user_input:
             #remove caesar from the user input
             user_input = user_input.split("caesar ")
             #send the cipher to the caesarcrack function
