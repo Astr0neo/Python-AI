@@ -3,6 +3,9 @@ import json
 import urllib.request, urllib.parse
 import re
 
+temp_value = None
+temp_index1 = None
+temp_index2 = None
 
 #def showsome(searchfor):
   #query = urllib.parse.urlencode({'q': searchfor})
@@ -40,10 +43,41 @@ def getcontent(id,criteria):
   data = results['responseData']
   hits = data['results']
   response = hits[id]['content']
-  return response
+  answer = splitup(response)
+  return answer
+
+def splitup(data):
+  answer = ""
+  r_list = list(data)
+
+  while '<' in r_list:
+    temp_index1 = r_list.index('<')
+    temp_index2 = r_list.index('>')
+
+    if '/' in r_list:
+      if r_list.index('/') >= temp_index1 and r_list.index('/') <= temp_index2:
+        r_list[(r_list.index('/'))] = ''
+
+    if 'b' in r_list:
+      if r_list.index('b') >= temp_index1 and r_list.index('b') <= temp_index2:
+        r_list[(r_list.index('b'))] = ''
+
+    if '>' in r_list:
+      if r_list.index('>') >= temp_index1 and r_list.index('>') <= temp_index2:
+        r_list[(r_list.index('>'))] = ''
+
+    if '<' in r_list:
+      if r_list.index('<') >= temp_index1 and r_list.index('<') <= temp_index2:
+        r_list[(r_list.index('<'))] = ''
+
+  r_list[(r_list.index('\xa0'))] = ''
+  r_list[(r_list.index('\n'))] = ''
+
+  for item in r_list:
+    answer += item
+
+  answer = answer.split('.')
+  return(answer[0])    
 
 print(geturl(0,'transvision vamp'))
-
-r = getcontent(0,'transvision vamp')
-r_list = list(r)
-print(r_list)
+print(getcontent(0, 'transvision vamp'))
