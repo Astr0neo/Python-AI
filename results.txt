@@ -1,0 +1,107 @@
+{
+	"responseData": 
+		{
+			"results":
+				[
+					{
+						"GsearchResultClass":"GwebSearch",
+						"unescapedUrl":"https://en.wikipedia.org/wiki/Transvision_Vamp",
+						"url":"https://en.wikipedia.org/wiki/Transvision_Vamp",
+						"visibleUrl":"en.wikipedia.org",
+						"cacheUrl":"http://www.google.com/search?q\u003dcache:7x9MT6zwXc4J:en.wikipedia.org",
+						"title":"\u003cb\u003eTransvision Vamp\u003c/b\u003e - Wikipedia, the free encyclopedia",
+						"titleNoFormatting":"Transvision Vamp - Wikipedia, the free encyclopedia",
+						"content":"\u003cb\u003eTransvision Vamp\u003c/b\u003e were a British alternative rock group. Formed in 1986 by Nick \nChristian Sayer and Wendy James the band enjoyed chart success in the late ..."
+					}
+					,
+					{
+						"GsearchResultClass":"GwebSearch",
+						"unescapedUrl":"http://www.youtube.com/watch?v\u003dr26krlXFmOI",
+						"url":"http://www.youtube.com/watch%3Fv%3Dr26krlXFmOI",
+						"visibleUrl":"www.youtube.com",
+						"cacheUrl":"http://www.google.com/search?q\u003dcache:LiIfQvrPmXEJ:www.youtube.com",
+						"title":"\u003cb\u003eTransvision Vamp\u003c/b\u003e - Baby I Don\u0026#39;t Care (1989) - YouTube",
+						"titleNoFormatting":"Transvision Vamp - Baby I Don\u0026#39;t Care (1989) - YouTube",
+						"content":"Apr 12, 2012 \u003cb\u003e...\u003c/b\u003e Believe and UMG administer the sound recording content*..\u0026quot;Baby I Don\u0026#39;t Care\u0026quot; \nby \u003cb\u003eTransvision Vamp\u003c/b\u003e was the bands sixth single,it was released ..."
+					}
+					,
+					{
+						"GsearchResultClass":"GwebSearch",
+						"unescapedUrl":"http://www.discogs.com/artist/204247-Transvision-Vamp",
+						"url":"http://www.discogs.com/artist/204247-Transvision-Vamp",
+						"visibleUrl":"www.discogs.com",
+						"cacheUrl":"http://www.google.com/search?q\u003dcache:l7ofO2H8uhwJ:www.discogs.com",
+						"title":"\u003cb\u003eTransvision Vamp\u003c/b\u003e Discography at Discogs",
+						"titleNoFormatting":"Transvision Vamp Discography at Discogs",
+						"content":"Complete your \u003cb\u003eTransvision Vamp\u003c/b\u003e record collection. Discover \u003cb\u003eTransvision Vamp\u0026#39;s\u003c/b\u003e \nfull discography. Shop new and used Vinyl and CDs."
+					}
+					,
+					{
+						"GsearchResultClass":"GwebSearch",
+						"unescapedUrl":"http://www.itm-ed.de/tvamp/band/vamphistory.html",
+						"url":"http://www.itm-ed.de/tvamp/band/vamphistory.html",
+						"visibleUrl":"www.itm-ed.de",
+						"cacheUrl":"http://www.google.com/search?q\u003dcache:l0WEW3nBZyUJ:www.itm-ed.de",
+						"title":"Vamp History - We Are \u003cb\u003eTransvision Vamp\u003c/b\u003e!",
+						"titleNoFormatting":"Vamp History - We Are Transvision Vamp!",
+						"content":"The real story of \u003cb\u003eTransvision Vamp\u003c/b\u003e began on the night of November 4, 1983. \nWendy James was singing vocals to the backing beats of Patti Smith in an ..."
+					}
+					]
+					,
+					"cursor":
+					{
+						"resultCount":"16,000",
+						"pages":
+						[
+						{
+							"start":"0",
+							"label":1
+						}
+					,
+					{
+						"start":"4",
+						"label":2
+					}
+					,
+					{
+						"start":"8",
+						"label":3
+					}
+					,
+					{
+						"start":"12",
+						"label":4
+
+					}
+					,
+					{
+						"start":"16",
+						"label":5
+					}
+					,
+					{
+						"start":"20",
+						"label":6
+					}
+					,
+					{
+						"start":"24",
+						"label":7
+					}
+					,
+					{
+						"start":"28",
+						"label":8
+					}
+					]
+					,
+					"estimatedResultCount":"16000",
+					"currentPageIndex":0,
+					"moreResultsUrl":"http://www.google.com/search?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026start\u003d0\u0026hl\u003den-GB\u0026q\u003dtransvision+vamp",
+					"searchResultTime":"0.21"
+					}
+					}
+					, 
+					"responseDetails": null, 
+					"responseStatus": 200
+					}
