@@ -112,7 +112,7 @@ while user_input != "quit":
             #send the cipher to the caesarcrack function
             answer = caesarcrack(user_input[1])
         else:
-        	searchbing(user_input)
+        	answer = wikisearch(user_input)
 
     #check if answer is not empty
     if answer != None:
