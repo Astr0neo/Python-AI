@@ -78,5 +78,5 @@ def splitup(data):
   answer = answer.split('.')
   return(answer[0])    
 
-print(geturl(0,'transvision vamp'))
-print(getcontent(0, 'transvision vamp'))
+#print(geturl(0,'transvision vamp'))
+#print(getcontent(0, 'transvision vamp'))

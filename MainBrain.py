@@ -4,6 +4,8 @@ import wikipedia
 from ipwhois import IPWhois
 #import the caesarciper module
 from caesarcipher import CaesarCipher
+#import custom googlesearch module
+from googlesearch import *
 
 #predefinied variables
 user_input = ""
@@ -110,7 +112,7 @@ while user_input != "quit":
             #send the cipher to the caesarcrack function
             answer = caesarcrack(user_input[1])
         elif user_input != "quit":
-        	answer = wikisearch(user_input)
+        	answer = getcontent(0,user_input)
 
     #check if answer is not empty
     if answer != None:
