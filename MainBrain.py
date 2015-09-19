@@ -37,6 +37,7 @@ while user_input != "quit":
         #return the cracked message
         return cipher.cracked
 
+
     #split the user input into each word
     words = user_input.split(' ')
     #search every word in the user input
@@ -111,7 +112,7 @@ while user_input != "quit":
             #send the cipher to the caesarcrack function
             answer = caesarcrack(user_input[1])
         else:
-        	Search_Bing(user_input)
+        	searchbing(user_input)
 
     #check if answer is not empty
     if answer != None:
