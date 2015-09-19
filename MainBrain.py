@@ -110,6 +110,8 @@ while user_input != "quit":
             user_input = user_input.split("caesar ")
             #send the cipher to the caesarcrack function
             answer = caesarcrack(user_input[1])
+        else:
+        	Search_Bing(user_input)
 
     #check if answer is not empty
     if answer != None:
