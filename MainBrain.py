@@ -4,8 +4,6 @@ import wikipedia
 from ipwhois import IPWhois
 #import the caesarciper module
 from caesarcipher import CaesarCipher
-#import the Seach_Bing module
-from Search_Bing import *
 
 #predefinied variables
 user_input = ""
